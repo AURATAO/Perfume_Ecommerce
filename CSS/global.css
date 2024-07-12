@@ -2,6 +2,7 @@
 @import url('./component/header.css');
 @import url('./component/footer.css');
 @import url('./component/subscribe.css');
+@import url('./color.css');
 
 img{
     display: block;
@@ -15,6 +16,11 @@ a{
 
 *,*::before,*::after{
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'San Francisco',"PingFangSC",sans-serif;
+    line-height: 1.5;
 }
 
 .maxWidth{

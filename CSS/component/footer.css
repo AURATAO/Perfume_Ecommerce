@@ -62,3 +62,14 @@ footer ul li a{
 footer ul li a:hover{
     color: rgb(213, 211, 211)
 }
+
+@media(max-width:767px){
+    .footer_left{
+        width:100%;
+        justify-content: space-around;
+    }
+
+    footer ul{
+        display:none;
+    }
+}

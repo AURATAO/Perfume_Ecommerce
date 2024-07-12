@@ -70,6 +70,18 @@
     background-color:rgba(255, 255, 255, 0.3);
 }
 
+@media (width <= 767px){
+    .banner{
+        height: calc(70vh - 56px);
+        min-height:800px;
+    }
+
+    .banner_content{
+        width:100%;
+        min-width: auto;
+        padding:0 15px;
+    }
+}
 
 
 
@@ -117,13 +129,13 @@
 }
 
 .content_text p{
-    font: size 20px;
+    font-size: 20px;
     line-height: 30px;
     font-weight:400;
 }
 
-.content_text a:hover{
-    color:rgb(172, 138, 70, 0.8);
+.content_text a{
+    color:#AC8A46;
 }
 .content_3 img{
     object-position: left;
@@ -170,6 +182,34 @@
 .content_4_text li:last-child a:hover{
     background-color: #0000000D;
 }
+
+@media (width <= 767px){
+    .content  div{
+        flex-direction: column;
+        padding:0px 15px;
+        gap:5px;
+    }
+    .content  div img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    .content_text{
+        width: 100%;
+        padding:20px 0 30px 0;
+        margin-bottom: 32px;
+    }
+    .content .content_4 > img{
+        aspect-ratio: auto;
+        height: 680px;
+    }
+    .content_4_text {
+        padding: 0px;
+
+    }
+}
+
+
 
 /*selected items*/
 
@@ -260,6 +300,36 @@
 }
 
 
+@media (width <= 1000px){
+    .selected_products{
+        max-width: 90%;
+    }
+
+    .selected_products li:first-child .selected_img img{
+        object-position: bottom;
+    }
+}
+
+@media(width <= 767px){
+    .selected_products{
+        max-width:100%;
+        flex-direction: column;
+        padding:0 15px;
+    }
+    .selected_products li{
+        width: 100%;
+    }
+
+    .selected_img{
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+/*recycling*/
+
 .recycling_adv{
     max-width: 1110px;
     width:100%;
@@ -293,8 +363,6 @@
 }
 
 
-
-
 .recycling_adv .recycling_content .subTitle{
     margin-bottom:15px;
     font-size:20px;
@@ -318,7 +386,25 @@
 }
 
 
+@media(width<=1110px){
+    .recycling_adv{
+        flex-direction: column;
+        gap:8px;
+        padding:40px 0 40px 0;
+    }
+
+    .recycling_adv img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .recycling_content{
+        padding-right:20px ;
+        padding-left: 20px;
+    }
 
 
-
-
+}

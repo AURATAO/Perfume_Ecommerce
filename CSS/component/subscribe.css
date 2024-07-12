@@ -1,7 +1,7 @@
 /*subscribe*/
 
 .subscribe{
-    background-image: url('img/subscribe/subscribe.jpg');
+    background-image: url('/img/subscribe/subscribe.jpg');
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
@@ -17,7 +17,7 @@
     margin-bottom: 112px;
 }
 
-.subscribe > div{
+.subscribe div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,3 +79,23 @@
     outline: 0px;
     border: 2px solid #6C4700;
 }
+
+@media(max-width: 767px){
+    .subscribe{
+        background-size: 250%;
+        background-position: 40% 45%;
+        padding: 0 14px 0 14px;
+    }
+
+    .subscribe div{
+        padding: 0px;
+
+    }
+
+    .subscribe .subscribe_input input{
+        max-width:345px;
+        
+    }
+}
+
+/*here ... there is a question that using max-width:767px instead of width<=767px */
