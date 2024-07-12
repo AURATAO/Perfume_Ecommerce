@@ -4,7 +4,7 @@
 .productsPage{
     width: 100%;
     min-height: 100vh;
-    padding-top: 80px;
+    padding-top: 56px;
 }
 
 /*brands bar*/
@@ -33,6 +33,12 @@
 
 .brands_bar a:hover{
     color:rgb(208, 206, 206);
+}
+
+@media (max-width:767px){
+    .brands_bar{
+        display: none;
+    }
 }
 
 /*products*/
@@ -93,6 +99,7 @@
 .price span{
     color: #8D8D8D;
     font-size:16px;
+    font-weight: 300;
     text-decoration: line-through;
 }
 
@@ -119,3 +126,47 @@
 .productsList ul li .item ul li img {
     width: 20px;
 }
+
+@media (max-width:767px){
+    .productsList ul{
+        padding:40px 15px;
+        gap:30px;
+    }
+
+    .productsList ul li{
+        width: calc(100% / 2 - 30px);
+    }
+    .productsList ul li a h3{
+        font-size: 20px;
+        line-height:30px;
+    }
+}
+
+/*pagination*/
+
+.pagination ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap:20px;
+}
+
+.pagination li{
+    width: 20px;
+}
+
+.pagination li a{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    border:0px;
+    padding: 0px;
+}
+
+.pagination li .active{
+    color: var(--main-brown);
+    border-bottom: 1px solid var(--main-brown);
+}
+

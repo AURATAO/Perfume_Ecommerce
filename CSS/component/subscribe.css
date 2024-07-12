@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px 15px 0px 15px;
+    
 }
 
 .subscribe h2{
@@ -98,4 +98,4 @@
     }
 }
 
-/*here ... there is a question that using max-width:767px instead of width<=767px */
+/* that using max-width:767px instead of width<=767px */
