@@ -3,7 +3,7 @@
 
 .home{
     width: 100%;
-    min-width: 100vph; /*?*/
+    min-width: 100vph; 
     padding-top: 56px;
 }
 
@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: center;
     text-align: left;
-    height:calc(100vh-56px);  /*?*/
+    height:calc(100vh-56px);  
     min-height: 800px;
 }
 
@@ -92,7 +92,7 @@
 
 .content > div > img{
     width: 50%;
-    aspect-ratio: 1/1; /**/
+    aspect-ratio: 1/1; 
     object-fit: cover;
 
 }
@@ -256,7 +256,7 @@
 
 .selected_content_text .price .salesPrice{
     color: var(--main-gray);
-    text-decoration: line-through; /**/
+    text-decoration: line-through; 
 }
 
 
