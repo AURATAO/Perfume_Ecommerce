@@ -1,7 +1,7 @@
 /*subscribe*/
 
 .subscribe{
-    background-image: url('img/subscribe/subscribe.jpg');
+    background-image: url('./img/subscribe/subscribe.jpg');
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
