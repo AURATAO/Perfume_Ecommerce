@@ -9,7 +9,7 @@
 
 /**/
 .banner{
-    background-image: url('/img/home/banner.jpg');
+    background-image: url('../img/home/banner.jpg');
     margin:0 auto;
     background-size: cover;
     background-repeat: no-repeat;
