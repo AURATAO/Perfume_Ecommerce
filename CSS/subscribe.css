@@ -1,7 +1,9 @@
 /*subscribe*/
+/*try million times due to the problem of displaying img on github page*/
+/*so i tried differnet path to figure out the reason of the displaying image problem in the end it's path issue i moved subscribe.css to out of component file then it works.*/
 
 .subscribe{
-    background-image: url('../img/subscribe/subscribeBackground.jpg'); /*try million times due to the problem of displaying img on github page*/
+    background-image: url('../img/subscribe/subscribeBackground.jpg'); 
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
